@@ -1,3 +1,25 @@
 body{
     background-color: bisque;
 }
+header{
+
+
+    background-color: cadetblue;
+}
+.center{
+    background-color: coral;
+    margin: 0 auto;
+    width: 40%;
+
+
+    color: white;
+}
+textarea{
+
+    width: 80%;
+}
+button{
+
+    width: 80%;
+}
+
