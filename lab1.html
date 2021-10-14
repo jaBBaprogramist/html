@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="Scripts.js"></script>
     <link rel="stylesheet" href="lab1.css">
     <title>Title</title>
 </head>
 <body>
 <div class="center">
     <h2>Список дел</h2>
-    <input></input>
-    <button class="add">Отправить</button>
+    <input id = "input"></input>
+    <button class="addButton" id="add">Отправить</button>
     <br>
     <br>
 
 </div>
-<ul>
+<ul id="list">
     <li>Приготовить завтрак
-        <button style="width: 50px">&#128298;</button>
+        <button style="width: 50px" onclick="this.remove()">&#128298;</button>
     </li>
     <li>Помыть посуду
-        <button style="width: 50px">&#128298;</button>
+        <button style="width: 50px" id ="delete">&#128298;</button>
     </li>
     <li>Убираться дома
         <button style="width: 50px">&#128298;</button>
